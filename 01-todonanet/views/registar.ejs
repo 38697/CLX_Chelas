@@ -1,0 +1,44 @@
+
+<% include _layouts/top %>
+	
+<form method="post" action="/registar">
+<div class="panel panel-default">
+  <div class="panel-heading">Dados Pessoais</div>
+  <div class="panel-body"> 
+ 
+	<h3>Nome:</h3>
+	<input class="form-control input-lg"  name="user"  type="text"   placeholder="Nome">
+    
+  <div>
+	<h3>Email:</h3>
+	<input class="form-control input-lg"   type="email"  name="email" placeholder="Endereco eletronico">
+  </div>
+  <br/>
+  
+  <div >
+<h3>Palavra Passe: </h3>
+	<input class="form-control input-lg"  size="10" type="password"  name="password" placeholder="Inserir Palavra Passe nova">	
+  </div>
+  
+   <div >
+	<h3>Confirmar Password:</h3>
+	  <br/>
+	<input class="form-control input-lg"   size="10"  type="password"  name="password2" placeholder="Inserir Palavra Passe novamente">
+  </div>
+  
+  <br/>
+ 
+	<input onclik="myFunction()" type="submit" class="btn btn-default" value="Concluir" />
+
+  </div>
+</div>
+
+ </form>
+
+
+<% include _layouts/bottom %><!DOCTYPE html>
+
+
+
+	
+
